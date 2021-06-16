@@ -4,5 +4,6 @@ from myapp import views
 
 urlpatterns = [
     path("" , views.home),
-    path('verify/data' , views.decodedata)
+    path('login' , views.login),
+    path('verify/token' , views.verifytoken)
 ]
